@@ -625,12 +625,12 @@
 
 
 /* ----Tech stack section start------- */
-.tcstck_dbnw .tech_bxnw.tech_bxnw_nt {
+.tect_stack_section .tech_bxnw.tech_bxnw_nt {
   -webkit-mask-image: unset;
 }
 
-.tcstck_dbnw #techstack_tab::before,
-.tcstck_dbnw #techstack_tab::after {
+.tect_stack_section #techstack_tab::before,
+.tect_stack_section #techstack_tab::after {
   display: none;
 }
 
@@ -640,7 +640,7 @@
   min-width: 100%;
 }
 
-.tcstck_dbnw #techstack_tab {
+.tect_stack_section #techstack_tab {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -649,7 +649,7 @@
   border-bottom: 1px solid #ABABAB;
 }
 
-.tcstck_dbnw .tech_sngl figure {
+.tect_stack_section .tech_sngl figure {
   width: 105px;
   height: 105px;
   border: 1px solid #e2e2e2;
@@ -662,55 +662,55 @@
   justify-content: center
 }
 
-.tcstck_dbnw .tech_sngl h4 {
+.tect_stack_section .tech_sngl h4 {
   text-align: center;
   margin-top: 5px;
 }
 
-.tcstck_dbnw .nav-pills .nav-link.active,
-.tcstck_dbnw .nav-pills .show>.nav-link {
+.tect_stack_section .nav-pills .nav-link.active,
+.tect_stack_section .nav-pills .show>.nav-link {
   background-color: unset;
 
 }
 
-.tcstck_dbnw .nav-link p {
+.tect_stack_section .nav-link p {
   color: #1d1d1d;
   font-size: 22px;
   font-weight: 900;
   margin: 0;
 }
 
-.tcstck_dbnw .tab-content>.tab-pane {
+.tect_stack_section .tab-content>.tab-pane {
   display: block !important;
 }
 
-.tcstck_dbnw .tab-content .tab-pane {
+.tect_stack_section .tab-content .tab-pane {
   top: 0;
   opacity: 0;
   height: 0;
   transition: unset;
 }
 
-.tcstck_dbnw .tab-content .tab-pane.active {
+.tect_stack_section .tab-content .tab-pane.active {
   top: auto;
   opacity: 1;
   height: auto;
   transition: unset;
 }
 
-.tcstck_dbnw .nav-pills .nav-link {
+.tect_stack_section .nav-pills .nav-link {
   border: 2px solid transparent !important;
   background: unset !important;
   transition: unset !important;
 }
 
-.tcstck_dbnw .nav-pills .nav-link.active {
+.tect_stack_section .nav-pills .nav-link.active {
   border-bottom: 2px solid #00649E !important;
   border-radius: unset;
   transition: unset !important;
 }
 
-.tcstck_dbnw .tech_bxnw {
+.tect_stack_section .tech_bxnw {
   display: flex;
   width: 100%;
   height: 100%;
@@ -725,15 +725,15 @@
   overflow: hidden;
 }
 
-.tcstck_dbnw .tab-content {
+.tect_stack_section .tab-content {
   padding-top: 40px;
 }
 
-.tcstck_dbnw .tech_us::after {
+.tect_stack_section .tech_us::after {
   content: unset;
 }
 
-.tcstck_dbnw .d_flx.tech_us {
+.tect_stack_section .d_flx.tech_us {
   margin-top: 50px;
 }
 
@@ -741,7 +741,7 @@
 
 
 /* --------process section start--------- */
-.wbdvplrs_prcs_sc .iotprcs_lst {
+.web_dev_process_section .iotprcs_lst {
   background: url(/assets/img/processbg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -749,22 +749,22 @@
   margin-top: 70px;
 }
 
-.wbdvplrs_prcs_sc .iotprcs_bx {
+.web_dev_process_section .iotprcs_bx {
   width: 37%;
   position: relative;
   margin-bottom: 60px;
 }
 
-.wbdvplrs_prcs_sc .iotprcs_bx h3 {
+.web_dev_process_section .iotprcs_bx h3 {
   font-size: 26px;
   font-weight: 900;
   margin: 0;
 }
 
-.wbdvplrs_prcs_sc .iotprcs_bx:nth-child(even) {
+.web_dev_process_section .iotprcs_bx:nth-child(even) {
   margin-left: auto;
 }
-.wbdvplrs_prcs_sc .iotprcs_bx figure {
+.web_dev_process_section .iotprcs_bx figure {
   background: #fff;
   width: 60px;
   height: 60px;
@@ -775,7 +775,7 @@
   padding: 15px;
   display: none;
 }
-.wbdvplrs_prcs_sc {
+.web_dev_process_section {
   padding-top: 50px;
 }
 /* --------process section end--------- */
@@ -1099,7 +1099,7 @@
     font-size: 20px;
   }
 
-  .wbdvplrs_prcs_sc .iotprcs_bx h3 {
+  .web_dev_process_section .iotprcs_bx h3 {
     font-size: 20px;
   }
 
@@ -1267,7 +1267,7 @@
     gap: 15px 0;
   }
 
-  .wbdvplrs_prcs_sc .iotprcs_bx {
+  .web_dev_process_section .iotprcs_bx {
     background: #e6e9f2;
     padding: 20px 10px;
     border-radius: 10px;
@@ -1280,27 +1280,27 @@
     margin: 0 5px 0 5px;
   }
 
-  .wbdvplrs_prcs_sc .iotprcs_bx:nth-child(even) {
+  .web_dev_process_section .iotprcs_bx:nth-child(even) {
     margin-left: 5px;
   }
 
-  .wbdvplrs_prcs_sc {
+  .web_dev_process_section {
     margin-top: 5px;
   }
 
-  .wbdvplrs_prcs_sc .iotprcs_lst {
+  .web_dev_process_section .iotprcs_lst {
     background: unset;
     margin-top: 35px;
   }
 
-  .wbdvplrs_prcs_sc .iotprcs_bx figure {
+  .web_dev_process_section .iotprcs_bx figure {
     width: 50px;
     height: 50px;
     display: block;
     margin: 0 auto 10px;
   }
 
-  .wbdvplrs_prcs_sc .iotprcs_bx p {
+  .web_dev_process_section .iotprcs_bx p {
     font-size: 16px;
   }
 
@@ -1587,38 +1587,38 @@
 }
 
 @media (max-width:1200px) {
-  .tcstck_dbnw .nav-link p {
+  .tect_stack_section .nav-link p {
     font-size: 16px;
   }
 
-  .tcstck_dbnw .tab-content {
+  .tect_stack_section .tab-content {
     padding-top: 0;
   }
 }
 
 @media (max-width:992px) {
-  .tcstck_dbnw .tech_sngl figure {
+  .tect_stack_section .tech_sngl figure {
     width: 85px !important;
     height: 85px !important;
   }
 
-  .tcstck_dbnw #techstack_tab {
+  .tect_stack_section #techstack_tab {
     margin: 30px 0 0 !important;
   }
 
-  .tcstck_dbnw .tech_bxnw {
+  .tect_stack_section .tech_bxnw {
     padding: 0 !important;
   }
 }
 
 @media (max-width:767px) {
-  .tcstck_dbnw #techstack_tab {
+  .tect_stack_section #techstack_tab {
     flex-wrap: nowrap;
     overflow: auto;
     white-space: nowrap;
   }
 
-  .tcstck_dbnw .tab-content {
+  .tect_stack_section .tab-content {
     padding-top: 20px;
   }
 }
