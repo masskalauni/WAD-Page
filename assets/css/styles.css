@@ -10,6 +10,9 @@
   flex-wrap: wrap;
   background-position: center;
 }
+.web_developmet_banner .mn_hd{
+  margin-bottom: 8rem;
+}
 
 .web_developmet_banner .mh p {
   margin: 25px 0 45px;
