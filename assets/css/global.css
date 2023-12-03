@@ -11,6 +11,7 @@
   --footer_clr: #1d164d;
   --color-white:white;
   --primary-font:  'Cabin', sans-serif;
+  --gradient-color:linear-gradient(67deg, rgba(53, 137, 65, 0.9752275910364145) 10%, rgba(76, 197, 94, 1) 90%);
 }
 * {
   margin:0;

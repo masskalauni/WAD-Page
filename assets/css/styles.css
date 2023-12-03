@@ -1173,7 +1173,7 @@
   }
 
   .wbdvlprs_cta2 .fix_container {
-    background: #089df3;
+    background: var(--theme_color);
     padding: 30px 20px;
     text-align: center;
   }
@@ -1195,7 +1195,7 @@
   }
 
   .wbdvplrs_indstrs_sc .resulv_dub_lst {
-    background: linear-gradient(180deg, #33b4ff, #00649e);
+    background: var(--gradient-color);
     border: unset;
     padding: 20px 10px;
     border-radius: 12px;
@@ -1224,7 +1224,7 @@
 
   .web_dev_reason_section .tab-pane {
     display: block;
-    background: transparent linear-gradient(180deg, #33b4ff 0%, #00649e 100%) 0% 0% no-repeat padding-box;
+    background:var( --gradient-color);
     padding: 30px 10px 20px 10px;
     border-radius: 30px;
     margin: 0 5px;
