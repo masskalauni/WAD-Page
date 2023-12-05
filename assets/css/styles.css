@@ -1,6 +1,6 @@
 /* -----banner section start 1---- */
 .web_developmet_banner {
-  background: url("/assets/img/webapp.png");
+  background: url('../img/webapp.png');
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -500,7 +500,7 @@
 
 /* ---------CTA2 section start-------------- */
 .wbdvlprs_cta2 .fix_container {
-  background: url(/assets/img/webapp_cta2.png);
+  background: url("../img/webapp_cta2.png");
   padding: 68px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -740,7 +740,7 @@
 
 /* --------process section start--------- */
 .web_dev_process_section .iotprcs_lst {
-  background: url(/assets/img/processbg.png);
+  background: url("../img/processbg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
