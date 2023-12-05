@@ -10,9 +10,6 @@
   flex-wrap: wrap;
   background-position: center;
 }
-.web_developmet_banner .mn_hd{
-  margin-bottom: 8rem;
-}
 
 .web_developmet_banner .mh p {
   margin: 25px 0 45px;
@@ -1136,6 +1133,9 @@
 
   .web_developmet_banner {
     background: unset;
+    
+      
+    
   }
 
   .wbdvplrs_cntr_sc .dbnw_trstd_bx {
@@ -1771,3 +1771,8 @@
 
 }
 
+@media(min-width:1200px){
+  .web_developmet_banner .mn_hd{
+    margin-bottom: 8rem;
+  }
+}
